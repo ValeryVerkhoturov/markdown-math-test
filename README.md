@@ -1,10 +1,12 @@
 # markdown-math-test
 
+## Документация
+
 Документация формул http://docs.mathjax.org/en/latest/index.html.
 
 Макросы http://docs.mathjax.org/en/latest/input/tex/macros/index.html.
 
-Логотипы $\TeX$, $\LaTeX$
+## Фичи
 
 Математика в тексте $1_{23}^3 + \frac12 + \left(\frac{1}{\frac{1}{\frac{1}{2}}}\right) + \dfrac{1}{\dfrac{1}{\dfrac{1}{2}}}$.
 
@@ -13,6 +15,8 @@
 Коши с `\quad` после запятой: $$y'(t)=\frac{1}{6}(t+y), \quad y(0)=6 .$$
 
 Семантика `\text` в математике + у латиницы гарнитура CM, у кириллицы – нет: $$math \qquad \text{semantics, семантика} \qquad математика .$$
+
+## Расширенный алфавит
 
 Греческий алфавит:
 
@@ -67,7 +71,21 @@
 
 ----------
 
+## Экранирование
+
+Экранирование `$` в markdown можно так: вставить внуть кавычек \` или внуть тега span `<span>$</span>`
+
+## Лого
+
+$\TeX$, $\LaTeX$.
+
+## Ошибки
+
 Ошибка в формуле выглядит так: $\oshibka{}$
+
+$$\oshibkaVVikluchennoyFormule$$
+
+## Невозможно сделать
 
 Невозможно всавить формулу в GH Markdown структуры:
 
