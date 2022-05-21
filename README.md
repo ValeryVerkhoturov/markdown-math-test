@@ -1,6 +1,7 @@
 # markdown-math-test
 
 Документация формул http://docs.mathjax.org/en/latest/index.html.
+
 Макросы http://docs.mathjax.org/en/latest/input/tex/macros/index.html.
 
 Логотипы $\TeX$, $\LaTeX$
@@ -70,7 +71,7 @@
 
 Ошибка в формуле выглядит так: $\oshibka{}$
 
-Equation окружения не поддерживает нумерацию: $$\begin{equation}1+1\end{equation} .$$
+Equation окружение не поддерживает нумерацию: $$\begin{equation}1+1\end{equation} .$$
 
 Отсутствие лигатур $\text{<< >> ---}$ .
 
