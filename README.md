@@ -1,6 +1,9 @@
 # markdown-math-test
 
 Документация формул http://docs.mathjax.org/en/latest/index.html.
+Макросы http://docs.mathjax.org/en/latest/input/tex/macros/index.html.
+
+Логотипы $\TeX$, $\LaTeX$
 
 Математика в тексте $1_{23}^3 + \frac12 + \left(\frac{1}{\frac{1}{\frac{1}{2}}}\right) + \dfrac{1}{\dfrac{1}{\dfrac{1}{2}}}$.
 
@@ -62,7 +65,6 @@
 Омега	\Omega \omega	$\Omega\ \omega$
 
 ----------
-
 
 Нет альтернативы $ `\(  \)`.
 
